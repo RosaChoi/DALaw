@@ -8,7 +8,9 @@ h1, h2, h3, h4, h5, h6 , p{
 	margin: 0;
 	padding: 0;
 }
-
+.container {
+	margin: auto 0;
+}
 /*Top NavBar*/
 .wrapper {
 	background: url(../img/NYC1.jpg) center top no-repeat;
@@ -59,16 +61,20 @@ h3 {
 }
 /*VISION & PRACTIC AREAS*/
 .row-a {
-	padding: 4em;
+	padding: 3em 0;
 	display: inline-block;
+	overflow: hidden;
+	width: 1000px;
+	margin-right: auto;
+	margin-left: 7em;
 }
 .vision {
-	width: 420px;
+	width: 400px;
 	height: 100%;
 	background-color: rgba(225, 225, 225, 0.3);
 	z-index: 3;	
 	float: left;
-	margin: 0 2em;
+	/*margin:0 1.2em 0 3em;*/
 }
 .goal {
 	background-color: #000;
@@ -80,6 +86,9 @@ h3 {
 .goal-list {
 	padding: 20px 0;
 }
+.article {
+	border-left: 5px solid #48bbcc;
+}
 .vision p,
 .tabs,
 .toggle-tabs p{
@@ -89,19 +98,19 @@ h3 {
 	font-weight: 200;
 }
 .practice-areas {
-	width: 520px;
+	width: 500px;
 	height: 100%;
 	background-color: rgba(225, 225, 225, 0.3);
 	z-index: 3;	
 	float: right;
-	margin: 0 2em;
+	/*margin:0 3em 0 1.2em;*/
 }
 .tabs li {
 	list-style: none;
 	display: inline-block;
 	font-size: 12px;
 	font-weight: 500;
-	padding: 0 6px;
+	padding: 0 4px;
 	border-right: 1px solid #48bbcc;
 }
 .tabs li:last-child {
@@ -115,5 +124,18 @@ h3 {
 .toggle-tabs {
 	/*display: none;*/
 	background-color: rgba(0, 0, 0, 0.5);
+}
+/*.clearfix {
+	clear: both;
+}*/
+/*OUR TEAM*/
+.team {
+	background-color: #f2f2f2;
 
+}
+.bio {
+	width: 70%;
+	line-height: 2;
+	margin-right: auto;
+	margin-left: auto;
 }
