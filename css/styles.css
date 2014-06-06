@@ -1,0 +1,53 @@
+body{
+	font-family: "freight-sans-pro", sans-serif;
+	-webkit-font-smoothing: antialiased;
+	font-size: 16px;
+	color: #292929;
+}
+/*Top NavBar*/
+.wrapper {
+	background: url(../img/NYC1.jpg) center top no-repeat;
+	background-size:  cover;
+	height: 713px;
+}
+.navbar {
+	background-color: rgba(0, 0, 0, 0.6);
+	border-bottom: 1px solid #adadad;
+	position: fixed;
+	width: 100%;
+	top: 0;
+	z-index: 5;
+}
+a {
+	text-decoration: none;
+	color: #fff;
+}
+a:hover {
+	color: #48bbcc;
+}
+.navbar-right {
+	float: right;
+	list-style-type: none;
+	text-decoration: none;
+}
+.nav-content {
+	padding-right: 1.5em;
+	display: inline-block;
+}
+h1 {
+	font-size: 4em;
+	text-align: center;
+	text-transform: uppercase;
+	padding-top: 2.2em;
+}
+h2 {
+	font-size: 3em;
+	font-weight: 200;
+	text-align: center;
+	text-transform: uppercase;
+	padding-top: 2em;
+	margin: 0;
+}
+h3 {
+	text-align: center;
+}
