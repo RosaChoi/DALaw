@@ -4,11 +4,16 @@ body{
 	font-size: 16px;
 	color: #292929;
 }
+h1, h2, h3, h4, h5, h6 , p{
+	margin: 0;
+	padding: 0;
+}
+
 /*Top NavBar*/
 .wrapper {
 	background: url(../img/NYC1.jpg) center top no-repeat;
 	background-size:  cover;
-	height: 713px;
+	height: 100%;
 }
 .navbar {
 	background-color: rgba(0, 0, 0, 0.6);
@@ -33,6 +38,7 @@ a:hover {
 .nav-content {
 	padding-right: 1.5em;
 	display: inline-block;
+	z-index: 10;
 }
 h1 {
 	font-size: 4em;
@@ -46,8 +52,68 @@ h2 {
 	text-align: center;
 	text-transform: uppercase;
 	padding-top: 2em;
-	margin: 0;
 }
 h3 {
 	text-align: center;
+	padding: 1.2em 0;
+}
+/*VISION & PRACTIC AREAS*/
+.row-a {
+	padding: 4em;
+	display: inline-block;
+}
+.vision {
+	width: 420px;
+	height: 100%;
+	background-color: rgba(225, 225, 225, 0.3);
+	z-index: 3;	
+	float: left;
+	margin: 0 2em;
+}
+.goal {
+	background-color: #000;
+	color: #48bbcc;
+	text-transform: uppercase;
+	z-index: 4;
+	font-weight: 200;
+}
+.goal-list {
+	padding: 20px 0;
+}
+.vision p,
+.tabs,
+.toggle-tabs p{
+	color: #f2f2f2;
+	padding: 0 1.5em;
+	line-height: 2;
+	font-weight: 200;
+}
+.practice-areas {
+	width: 520px;
+	height: 100%;
+	background-color: rgba(225, 225, 225, 0.3);
+	z-index: 3;	
+	float: right;
+	margin: 0 2em;
+}
+.tabs li {
+	list-style: none;
+	display: inline-block;
+	font-size: 12px;
+	font-weight: 500;
+	padding: 0 6px;
+	border-right: 1px solid #48bbcc;
+}
+.tabs li:last-child {
+	border: 0 ;
+	border-right: 0;
+}
+.tabs {
+	border-bottom: 1px solid #48bbcc;
+	margin: 0;
+}
+.toggle-tabs {
+	/*display: none;*/
+	background-color: rgba(0, 0, 0, 0.5);
+
 }
