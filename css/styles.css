@@ -8,9 +8,6 @@ h1, h2, h3, h4, h5, h6 , p{
 	margin: 0;
 	padding: 0;
 }
-.container {
-	margin: auto 0;
-}
 /*Top NavBar*/
 .wrapper {
 	background: url(../img/NYC1.jpg) center top no-repeat;
@@ -60,31 +57,42 @@ h3 {
 	padding: 1.2em 0;
 }
 /*VISION & PRACTIC AREAS*/
-.row-a {
+/*.row-a {
 	padding: 3em 0;
 	display: inline-block;
 	overflow: hidden;
-	width: 1000px;
-	margin-right: auto;
-	margin-left: 7em;
+	max-width: 75.998em;
+	margin: 0 auto;
+	width: 100%;
+}*/
+.main {
+	margin: 0;
+	padding: 4.236em 4.8828125%;
+	overflow: hidden;
+}
+.row-a {
+	max-width: 87.890625%;
+	margin:  0 auto;
+	width: 100%
 }
 .vision {
-	width: 400px;
+	width: 44%;
 	height: 100%;
 	background-color: rgba(225, 225, 225, 0.3);
 	z-index: 3;	
 	float: left;
-	/*margin:0 1.2em 0 3em;*/
+	margin-bottom: 4%;
+
 }
 .goal {
 	background-color: #000;
 	color: #48bbcc;
 	text-transform: uppercase;
 	z-index: 4;
-	font-weight: 200;
+	font-weight: 300;
 }
 .goal-list {
-	padding: 20px 0;
+	padding: 5% 0;
 }
 .article {
 	border-left: 5px solid #48bbcc;
@@ -95,22 +103,21 @@ h3 {
 	color: #f2f2f2;
 	padding: 0 1.5em;
 	line-height: 2;
-	font-weight: 200;
+	font-weight: 300;
 }
 .practice-areas {
-	width: 500px;
+	width: 55%;
 	height: 100%;
 	background-color: rgba(225, 225, 225, 0.3);
 	z-index: 3;	
 	float: right;
-	/*margin:0 3em 0 1.2em;*/
 }
 .tabs li {
 	list-style: none;
 	display: inline-block;
-	font-size: 12px;
+	font-size: 0.75em;
 	font-weight: 500;
-	padding: 0 4px;
+	padding: 0 2%;
 	border-right: 1px solid #48bbcc;
 }
 .tabs li:last-child {
@@ -122,20 +129,101 @@ h3 {
 	margin: 0;
 }
 .toggle-tabs {
-	/*display: none;*/
+	display: none;
 	background-color: rgba(0, 0, 0, 0.5);
 }
-/*.clearfix {
-	clear: both;
-}*/
 /*OUR TEAM*/
 .team {
-	background-color: #f2f2f2;
+	max-width: 87.890625%;
+	width: 100%;
+	overflow: hidden;
+	padding: 0 6%;
+	background-color: #fff;
+	background: url(../img/profilephoto3.png) center top no-repeat;
+	background-size: cover;
 
 }
+.team h2 {
+	color: #f2f2f2;
+	text-align: left;
+}
+.name {
+	color: #48bbcc;
+	font-style: italic;
+	font-size: 1.5em;
+	font-weight: 400;
+	padding: 2em 0;
+	text-align: left;
+}
+.profile {
+	float: left;
+}
 .bio {
-	width: 70%;
-	line-height: 2;
-	margin-right: auto;
-	margin-left: auto;
+	width: 30%;
+	line-height: 1.5;
+	
+	padding: 2em;
+	background-color: rgba(0, 0, 0, 0.2);
+	color: #fff;
+	z-index: 4;
+}
+/*OUR SERVICE*/
+.services {
+	background-color: #f2f2f2;
+	/*background: url(../img/profilephoto1.png) center top no-repeat;
+	background-size:  cover;*/
+	height: 853px;
+	
+}
+/*CONTACT SECTION*/
+.contact {
+	background-color: #000;
+	color: #f2f2f2;
+	height: 100%;
+	padding-bottom: 1.5em;
+}
+.row-c {
+	max-width: 87.890625%;
+	margin:  0 auto;
+	width: 100%;
+	overflow: hidden;
+	padding-top: 2em;
+}
+.c-icon {
+	float: left;
+	width: 20%;
+	padding-left: 6em;
+	padding-bottom: 3em;
+}
+.contact-info {
+	float: right;
+	width: 60%;
+	padding-top: 2em;
+	line-height: 1.5;
+}
+h5 {
+	font-weight: 200;
+	font-size: 1.25em;
+}
+.social-media {
+	list-style: none;
+	/*display: inline-block;*/
+}
+.social-media li {
+	display: inline;
+	padding-right:1.4em;
+}
+.social-media a:hover {
+	color: #48bbcc;
+}
+/*Footer*/
+.footer {
+	background-color: #48bbcc;
+	color: #fff;
+	font-weight: 200;
+	padding: 1.2em;
+}
+.footer a:hover {
+	color: #000;
+	font-size: 85%;
 }
