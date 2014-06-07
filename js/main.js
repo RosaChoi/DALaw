@@ -37,14 +37,6 @@ function homeClicked() {
 }
 
 // Toggle Tabs
-// $('.entertainment').click(enterClicked);
-// function enterClicked() {
-// 	event.preventDefault();
-// 	console.log('enterClicked');
-// 	$(this).addClass('active');
-// 	$('.slidedown-one').show();
-// }
-
  $('ul.tabs').each(function(){
     // For each set of tabs, we want to keep track of
     // which tab is active and it's associated content

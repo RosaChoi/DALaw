@@ -8,6 +8,11 @@ h1, h2, h3, h4, h5, h6 , p{
 	margin: 0;
 	padding: 0;
 }
+span {
+	font-family: 'Libre Baskerville', serif;
+	-webkit-font-smoothing: antialiased;
+	font-size: 0.9em;
+}
 /*Top NavBar*/
 .wrapper {
 	background: url(../img/NYC1.jpg) center top no-repeat;
@@ -89,7 +94,9 @@ h3 {
 .article {
 	border-left: 5px solid #48bbcc;
 	font-style: italic;
-	font-size: 0.9em;
+	font-size: 0.7em;
+	font-family: 'Libre Baskerville', serif;
+	-webkit-font-smoothing: antialiased;
 }
 .vision p,
 .tabs,
@@ -145,7 +152,7 @@ h3 {
 	overflow: hidden;
 	padding: 0 6%;
 	background-color: #fff;
-	background: url(../img/profilephoto3.png) center top no-repeat;
+	background: url(../img/profilephoto3.png) left top no-repeat;
 	background-size: cover;
 
 }
@@ -167,11 +174,13 @@ h3 {
 .bio {
 	width: 30%;
 	line-height: 1.5;
-	
+	font-family: 'Libre Baskerville', serif;
+	-webkit-font-smoothing: antialiased;
 	padding: 2em;
 	background-color: rgba(0, 0, 0, 0.2);
 	color: #fff;
 	z-index: 4;
+	font-size: 80%;
 }
 /*Achievement*/
 .highlights {
