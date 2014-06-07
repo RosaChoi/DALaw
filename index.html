@@ -23,9 +23,9 @@
 			<div class="navbar">
 				<a href="http://DavinaAmiriLaw.com" class="home">LOGO Placeholder</a>
 				<ul class="navbar-right">
-					<li class="nav-content"><a href="#">Our Team</a></li>
-					<li class="nav-content"><a href="#">Our Services</a></li>
-					<li class="nav-content"><a href="#">Our Contact</a></li>
+					<li class="nav-content one"><a data-target-id="ourTeam" href="#">Our Team</a></li>
+					<li class="nav-content two"><a data-target-id="ourServices" href="#">Our Services</a></li>
+					<li class="nav-content three"><a data-target-id="ourContact" href="#">Our Contact</a></li>
 				</ul>
 			</div>
 			<div class="banner">
@@ -46,22 +46,30 @@
 					<div class="practice-areas">
 						<h3 class="goal">Our Practice Areas</h3>
 						<ul class="tabs">
-							<li><a href="#" class="entertainment">Entertainment</a></li>
-							<li><a href="#" class="ip">Intellectual Property</a></li>
-							<li><a href="#" class="re">Real Estate</a></li>
-							<li><a href="#" class="biz">Business</a></li>
+							<li><a href="#tab1" class="entertainment">Entertainment</a></li>
+							<li><a href="#tab2" class="ip">Intellectual Property</a></li>
+							<li><a href="#tab3" class="re">Real Estate</a></li>
+							<li><a href="#tab4" class="biz">Business</a></li>
 						</ul>
 						<div class="toggle-tabs">
-							<p data-target-class="entertainment">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
-							<p data-target-class="ip">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
-							<p data-target-class="re">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
-							<p data-target-class="biz">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+							<div id="tab1">
+								<p data-target-class="entertainment">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+							</div>
+							<div id="tab2">
+								<p data-target-class="ip">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+							</div>
+							<div id="tab3">
+								<p data-target-class="re">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
+							</div>
+							<div id="tab4">
+								<p data-target-class="biz">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+							</div>
 						</div>
 					</div>
 				</div>
 			</div>
 		</div>
-		<div class="team">
+		<div id="ourTeam" class="team">
 			<h2>Meet Our Team</h2>
 			<h3 class="name">Davina Amiri, Attorney</h3>
 			<!-- <img class="profile" src="img/profilephoto2.png"> -->
@@ -74,7 +82,7 @@
 				In 2013, Davina founded <a href="http://www.musicianrights.org/" target="_blank">MusicianRights.org</a>, an organization which promotes fair and balanced contract standards for doing business in the music industry.
 			</p>
 		</div>
-		<div class="services">
+		<div id="ourServices" class="services">
 			<h2>Our Services</h2>
 			<div class="row-b">
 				<div class="service-a">
@@ -110,7 +118,7 @@
 				</div>
 			</div>
 		</div>
-		<div class="contact">
+		<div id="ourContact" class="contact">
 			<h2>Contact</h2>
 			<div class="row-c">
 				<div class="contact-icon">
@@ -139,7 +147,7 @@
 		</div>
 	</div>
 	<!-- jQuery -->
-    	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    	<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.1/jquery.min.js"></script>
 	<script src="js/main.js"></script>	
 </body>
 
