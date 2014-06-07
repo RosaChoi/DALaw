@@ -57,14 +57,6 @@ h3 {
 	padding: 1.2em 0;
 }
 /*VISION & PRACTIC AREAS*/
-/*.row-a {
-	padding: 3em 0;
-	display: inline-block;
-	overflow: hidden;
-	max-width: 75.998em;
-	margin: 0 auto;
-	width: 100%;
-}*/
 .main {
 	margin: 0;
 	padding: 4.236em 4.8828125%;
@@ -96,6 +88,8 @@ h3 {
 }
 .article {
 	border-left: 5px solid #48bbcc;
+	font-style: italic;
+	font-size: 0.9em;
 }
 .vision p,
 .tabs,
@@ -167,11 +161,29 @@ h3 {
 	color: #fff;
 	z-index: 4;
 }
+/*Achievement*/
+.highlights {
+	background-color: #f2f2f2;
+	padding: 4em;
+}
+.achievement {
+	max-width: 80%;
+	padding: 1.2em 2em;
+	font-size: 2em;
+	font-weight: 200;
+	line-height: 1.5;
+}
+.achievement a {
+	color: #48bbcc;
+	font-style: italic;
+}
+.achievement a:hover {
+	color: #fff;
+	text-shadow: 2px 2px #cdcdcd;
+}
 /*OUR SERVICE*/
 .services {
-	background-color: #f2f2f2;
-	/*background: url(../img/profilephoto1.png) center top no-repeat;
-	background-size:  cover;*/
+	background-color: #fff;
 	height: 853px;
 	
 }
@@ -222,8 +234,8 @@ h5 {
 	color: #fff;
 	font-weight: 200;
 	padding: 1.2em;
+	font-size: 85%;
 }
 .footer a:hover {
 	color: #000;
-	font-size: 85%;
 }
