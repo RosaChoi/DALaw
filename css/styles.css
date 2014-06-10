@@ -97,13 +97,6 @@ h3 {
 .goal-list {
 	padding: 5% 0;
 }
-/*.article {
-	border-left: 5px solid #48bbcc;
-	font-style: italic;
-	font-size: 0.7em;
-	font-family: 'Libre Baskerville', serif;
-	-webkit-font-smoothing: antialiased;
-}*/
 .vision p,
 .tabs,
 .toggle-tabs p{
@@ -111,7 +104,7 @@ h3 {
 	padding: 0 1.5em;
 	line-height: 2;
 	font-weight: 300;
-	font-size: 14px;
+	font-size: 17px;
 }
 .practice-areas {
 	width: 55%;
@@ -154,7 +147,7 @@ h3 {
 }
 /*OUR TEAM*/
 .team {
-	max-width: 87.890625%;
+	/*max-width: 87.890625%;*/
 	width: 100%;
 	overflow: hidden;
 	padding: 0 6%;
@@ -193,12 +186,14 @@ h3 {
 /*Achievement*/
 .highlights {
 	background-color: #f2f2f2;
-	padding: 4em;
+	padding: 2em;
 }
 .achievement {
 	max-width: 80%;
+	margin-right: auto;
+	margin-left: auto;
 	padding: 1.2em 2em;
-	font-size: 2em;
+	font-size: 1.2em;
 	font-weight: 200;
 	line-height: 1.5;
 }
@@ -209,6 +204,40 @@ h3 {
 .achievement a:hover {
 	color: #fff;
 	text-shadow: 2px 2px #cdcdcd;
+}
+/*Second Attorney*/
+.second-bio {
+	/*background-color: #6b6b6b;*/
+	background-color: #fff;
+	max-width: 87.890625%;
+	width: 100%;
+	overflow: hidden;
+	padding: 0 6%;
+}
+.sg-profile {
+	width: 30%;
+}
+.bio-SG {
+	line-height: 1.5;
+	font-family: 'Libre Baskerville', serif;
+	-webkit-font-smoothing: antialiased;
+	padding-bottom: 3em;
+	width: 60%;
+	margin-left: auto;
+	margin-right: auto;
+	float: right;
+}
+.row-bio {
+	overflow: hidden;
+	display: inline;
+}
+.sg-email {
+	color: #292929;
+	font-family: "freight-sans-pro", sans-serif;
+	-webkit-font-smoothing: antialiased;
+}
+.sg-email a:hover {
+	color: #48bbcc;
 }
 /*OUR SERVICE*/
 .services {
@@ -221,7 +250,8 @@ h3 {
 .service-a {
 	padding: 2em 0;
 	color: #f2f2f2;
-	width: 68%;
+	width: 98%;
+	text-align: center;
 	margin-left: auto;
 	margin-right: auto;
 	line-height: 1.5;
@@ -241,8 +271,6 @@ h3 {
 .service-d {
 	border-bottom: 1px solid #48bbcc;
 }
-
-
 .service-b span a {
 	font-style: italic;
 }
