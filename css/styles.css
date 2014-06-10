@@ -27,6 +27,11 @@ span {
 	top: 0;
 	z-index: 5;
 }
+.dalogo {
+	padding: 1.2em 1.5em;
+	width: 160px;
+	z-index: 10;
+}
 a {
 	text-decoration: none;
 	color: #fff;
@@ -43,6 +48,7 @@ a:hover {
 	padding-right: 1.5em;
 	display: inline-block;
 	z-index: 10;
+	padding-top: 1.2em;
 }
 h1 {
 	font-size: 4em;
@@ -91,13 +97,13 @@ h3 {
 .goal-list {
 	padding: 5% 0;
 }
-.article {
+/*.article {
 	border-left: 5px solid #48bbcc;
 	font-style: italic;
 	font-size: 0.7em;
 	font-family: 'Libre Baskerville', serif;
 	-webkit-font-smoothing: antialiased;
-}
+}*/
 .vision p,
 .tabs,
 .toggle-tabs p{
@@ -105,6 +111,7 @@ h3 {
 	padding: 0 1.5em;
 	line-height: 2;
 	font-weight: 300;
+	font-size: 14px;
 }
 .practice-areas {
 	width: 55%;
@@ -181,6 +188,7 @@ h3 {
 	color: #fff;
 	z-index: 4;
 	font-size: 80%;
+	padding-bottom: 2em;
 }
 /*Achievement*/
 .highlights {
@@ -204,10 +212,47 @@ h3 {
 }
 /*OUR SERVICE*/
 .services {
-	background-color: #fff;
-	height: 853px;
-	
+	background: url(../img/services.jpg) center top no-repeat;
+	height: 100%;	
 }
+.services h2 {
+	color: #f2f2f2;
+}
+.service-a {
+	padding: 2em 0;
+	color: #f2f2f2;
+	width: 68%;
+	margin-left: auto;
+	margin-right: auto;
+	line-height: 1.5;
+	font-family: 'Libre Baskerville', serif;
+	-webkit-font-smoothing: antialiased;
+}
+.row-b {
+	width: 68%;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 1.5em;
+	line-height: 1.5;
+	color: #f2f2f2;
+}
+.service-b,
+.service-c,
+.service-d {
+	border-bottom: 1px solid #48bbcc;
+}
+
+
+.service-b span a {
+	font-style: italic;
+}
+.service-b span a:hover {
+	color: #48bbcc;
+}
+.service-e {
+	padding-bottom: 3em;
+}
+
 /*CONTACT SECTION*/
 .contact {
 	background-color: #000;
@@ -237,14 +282,20 @@ h3 {
 h5 {
 	font-weight: 200;
 	font-size: 1.25em;
+	padding-bottom: 1.2em;
 }
 .social-media {
 	list-style: none;
-	/*display: inline-block;*/
+	padding-left: 0.8em;
+	padding-bottom: 1.2em;
+}
+.social-media a {
+	font-size: 0.9em;
 }
 .social-media li {
 	display: inline;
-	padding-right:1.4em;
+	padding: 0 0.8em;
+	margin: 0;
 }
 .social-media a:hover {
 	color: #48bbcc;
