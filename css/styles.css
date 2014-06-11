@@ -147,14 +147,13 @@ h3 {
 }
 /*OUR TEAM*/
 .team {
-	/*max-width: 87.890625%;*/
+	max-width: 87.890625%;
 	width: 100%;
 	overflow: hidden;
 	padding: 0 6%;
-	background-color: #fff;
+	/*background-color: #fff;*/
 	background: url(../img/profilephoto3.png) left top no-repeat;
 	background-size: cover;
-
 }
 .team h2 {
 	color: #f2f2f2;
@@ -165,7 +164,7 @@ h3 {
 	font-style: italic;
 	font-size: 1.5em;
 	font-weight: 400;
-	padding: 2em 0;
+	padding-top: 2em;
 	text-align: left;
 }
 .profile {
@@ -207,7 +206,6 @@ h3 {
 }
 /*Second Attorney*/
 .second-bio {
-	/*background-color: #6b6b6b;*/
 	background-color: #fff;
 	max-width: 87.890625%;
 	width: 100%;
@@ -236,6 +234,7 @@ h3 {
 	color: #292929;
 	font-family: "freight-sans-pro", sans-serif;
 	-webkit-font-smoothing: antialiased;
+	font-size: 0.7em;
 }
 .sg-email a:hover {
 	color: #48bbcc;
@@ -269,8 +268,14 @@ h3 {
 }
 .service-b,
 .service-c,
-.service-d {
+.service-d,
+.service-e {
+	background-color: rgba(0,0,0, 0.4);
+	padding-bottom: 1.5em;
 	border-bottom: 1px solid #48bbcc;
+}
+.service-e {
+	border-bottom: 0;
 }
 .service-b span a {
 	font-style: italic;
@@ -289,24 +294,17 @@ h3 {
 	height: 100%;
 	padding-bottom: 1.5em;
 }
-.row-c {
-	max-width: 87.890625%;
-	margin:  0 auto;
-	width: 100%;
-	overflow: hidden;
-	padding-top: 2em;
-}
 .c-icon {
-	float: left;
-	width: 20%;
-	padding-left: 6em;
-	padding-bottom: 3em;
+	width: 80%;
+	padding-top: 3em;
 }
 .contact-info {
-	float: right;
-	width: 60%;
-	padding-top: 2em;
+	width: 45%;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 2em 0;
 	line-height: 1.5;
+	text-align: center;
 }
 h5 {
 	font-weight: 200;
@@ -315,7 +313,7 @@ h5 {
 }
 .social-media {
 	list-style: none;
-	padding-left: 0.8em;
+	/*padding-left: 0.8em;*/
 	padding-bottom: 1.2em;
 }
 .social-media a {
@@ -326,7 +324,13 @@ h5 {
 	padding: 0 0.8em;
 	margin: 0;
 }
+ul.social-media {
+	padding-left: 0;
+}
 .social-media a:hover {
+	color: #48bbcc;
+}
+.da-law {
 	color: #48bbcc;
 }
 /*Footer*/
