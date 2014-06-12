@@ -346,16 +346,54 @@ ul.social-media {
 }
 /*Media Query: max-width 768*/
 @media screen and (max-width: 768px) {
+	.main {
+		padding: 5.236em 3.8828125%;
+	}
 	.row-a {
 		max-width: 99.890625%;
 	}
+	.tabs {
+		padding: 0 0.5em;
+	}
+	.tabs li {
+		padding: 0 1%;
+	}
 	.team {
-		max-width: 0;
 		background: url(../img/profilephoto3.png) center top no-repeat;
+	}
+	.c-icon {
+		width: 99%;
 	}
 
 }
 /*Media Query: max-width 480 */
 @media screen and (max-width: 480px) {
-	
+	.nav-content {
+		padding-right: 0.5em;
+		padding-top: 2em;
+		font-size: 14px;
+	}
+	.dalogo {
+		padding: 1.2em 1em;
+	}
+	.vision {
+		width: 100%;
+	}
+	.practice-areas {
+		width: 100%;
+	}
+	.tabs li {
+		padding: 0 3%;
+	}
+	.row-b {
+		width: 80%;
+	}
+	.bio {
+		width: 50%;
+	}
+	.achievement {
+		padding: 1.2em 1em;
+		max-width: 90%;
+	}
+
 }
