@@ -1,4 +1,4 @@
-body{
+body {
 	font-family: "freight-sans-pro", sans-serif;
 	-webkit-font-smoothing: antialiased;
 	font-size: 16px;
@@ -343,4 +343,19 @@ ul.social-media {
 }
 .footer a:hover {
 	color: #000;
+}
+/*Media Query: max-width 768*/
+@media screen and (max-width: 768px) {
+	.row-a {
+		max-width: 99.890625%;
+	}
+	.team {
+		max-width: 0;
+		background: url(../img/profilephoto3.png) center top no-repeat;
+	}
+
+}
+/*Media Query: max-width 480 */
+@media screen and (max-width: 480px) {
+	
 }
