@@ -271,7 +271,7 @@ h3 {
 .service-d,
 .service-e {
 	background-color: rgba(0,0,0, 0.4);
-	padding-bottom: 1.5em;
+	padding: 0 1.5em 1.5em 1.5em;
 	border-bottom: 1px solid #48bbcc;
 }
 .service-e {
